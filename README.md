@@ -85,4 +85,9 @@ Last selected value: 1296
 ```
 - Only the largest 15 of the 36 elements, which range from 22² = 484 to 36² = 1296, exceed the mean.
 
+We save the selected array using the code: `np.save("file name", ndarray)`
+- `np.save("X_normalized.npy", X_normalized)`
+- `np.save("div_by_4.npy", div_by_4)`
+- `np.save("above_mean.npy", above_mean)`
+
 Thank you for reading.
